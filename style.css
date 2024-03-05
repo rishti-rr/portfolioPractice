@@ -10,6 +10,8 @@ header{
     background-repeat: no-repeat;
     background-position: bottom right;
     border-radius: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 
@@ -31,12 +33,13 @@ nav{
 }
 
 .btn_nav{
-    border-radius: 4px;
     background-color: rgb(18, 144, 179);
     color: rgb(255, 255, 255);
     font-size: 22px;
     font-weight: 650;
     padding: 15px 35px;
+    border-radius: 5px;
+    border: 0;
 }
 
 .btn_nav :hover{
@@ -74,7 +77,7 @@ nav ul li a{
   }
 
 .banner{
-    padding: 25px 25px 0px 160px;
+    padding: 35px 35px 0px 180px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -95,7 +98,7 @@ nav ul li a{
 
 .banner_title{
     font-style: bold;
-    font-size: 80px;
+    font-size: 50px;
     font-weight: 600;
     margin-top: 5px;
     margin-bottom: 20px;
@@ -222,8 +225,9 @@ footer{
     gap: 200px;
     background-color: rgb(216, 241, 255);
     padding: 130px 200px;
-    max-width: 1400px;
     border-radius: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .footer_feild{
@@ -231,8 +235,12 @@ footer{
 }
 
 .social_links i {
-    margin-right: 25px;
-    size: auto;
+    margin-right: 30px;
+    
+}
+
+i{
+font-size: 36px;
 }
 .contact input{
     display: block;
@@ -243,4 +251,9 @@ footer{
     width: 100%;
     border: 0;
     padding: 20px 30px;
+}
+
+.contact textarea{
+    border: 0;
+    width: 100%;
 }
